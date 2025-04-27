@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Gravador de Áudio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web para gravação de áudio desenvolvida com React.
 
-## Available Scripts
+## 📋 Descrição
 
-In the project directory, you can run:
+Este projeto é uma aplicação front-end para gravação de áudio diretamente do navegador. A interface permite gravar e parar.
 
-### `npm start`
+## ✨ Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Gravação de áudio da tela
+- Interface amigável e responsiva
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Como usar
 
-### `npm test`
+### Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/) (v14.x ou superior)
+- [npm](https://www.npmjs.com/) (v6.x ou superior) ou [Yarn](https://yarnpkg.com/)
 
-### `npm run build`
+### 📥 Clonando o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone este repositório
+git clone https://github.com/silasbuarque/estudai-frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Acesse a pasta do projeto
+cd gravador-audio
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ⚙️ Instalando dependências
 
-### `npm run eject`
+```bash
+# Utilizando npm
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# OU utilizando Yarn
+yarn
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🏃‍♀️ Rodando a aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Utilizando npm
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# OU utilizando Yarn
+yarn start
+```
 
-## Learn More
+A aplicação será aberta automaticamente no seu navegador no endereço `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Tecnologias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-### Code Splitting
+- [React](https://reactjs.org/) - v19.1.0
+- [React DOM](https://reactjs.org/docs/react-dom.html) - v19.1.0
+- [React Scripts](https://www.npmjs.com/package/react-scripts) - v5.0.1
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 Estrutura do Projeto
 
-### Analyzing the Bundle Size
+```
+gravador-audio/
+├── public/             # Arquivos públicos
+├── src/                # Código fonte
+│   ├── components/     # Componentes React
+│   │   ├── AudioRecorder.jsx
+│   │   ├── Header.jsx
+│   │   ├── RecordingButtons.jsx
+│   │   └── ResultsDisplay.jsx
+│   ├── hooks/          # Custom React Hooks
+│   │   └── useTheme.js
+│   ├── App.js          # Componente principal
+│   └── index.js        # Ponto de entrada
+└── package.json        # Dependências e scripts
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 Licença
 
-### Making a Progressive Web App
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👨‍💻 Autor
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito por Silas Buarque.
