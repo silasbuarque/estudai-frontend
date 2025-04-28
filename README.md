@@ -1,4 +1,4 @@
-# Gravador de Áudio
+# EstudAI
 
 Aplicação web para gravação de áudio desenvolvida com React.
 
